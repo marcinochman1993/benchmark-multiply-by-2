@@ -1,0 +1,111 @@
+\hypertarget{class_benchmark}{\section{Dokumentacja szablonu klasy Benchmark$<$ Problem\-Type $>$}
+\label{class_benchmark}\index{Benchmark$<$ Problem\-Type $>$@{Benchmark$<$ Problem\-Type $>$}}
+}
+
+
+Klasa pozwalająca na testowanie algorytmów.  
+
+
+
+
+{\ttfamily \#include $<$Benchmark.\-hpp$>$}
+
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_benchmark_a31b07bc67080bad70e0695840f38d304}{Benchmark} (int repeat\-Num=10)
+\begin{DoxyCompactList}\small\item\em Konstruktor pozwalający na wybór ilości powtórzeń algorytmu dla danego rozmiaru problemu. \end{DoxyCompactList}\item 
+void \hyperlink{class_benchmark_aed80ebc889c52da37b8627c707651b8e}{start} (std\-::istream \&is\-Input\-Data=std\-::cin, std\-::istream \&is\-Correct\-Out\-Data=std\-::cin)
+\begin{DoxyCompactList}\small\item\em Rozpoczyna testowanie algorytmu. \end{DoxyCompactList}\item 
+bool \hyperlink{class_benchmark_ae418c8bf313d8af29903414ab85d5482}{save\-As\-C\-S\-V} (std\-::ostream \&os=std\-::cout)
+\begin{DoxyCompactList}\small\item\em Metoda pozwala zapisać wyniki testów wydajnościowych do strumienia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+Problem\-Type \hyperlink{class_benchmark_a3757139b2e5a299b831471e0d43f5f6b}{m\-\_\-problem}
+\begin{DoxyCompactList}\small\item\em Przechowuje obiekt, odpowiedzialny za algorytm. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{struct_benchmark_data}{Benchmark\-Data} $>$ \hyperlink{class_benchmark_a411654a4e38e256597715a627756b975}{m\-\_\-all\-Benchmarks}
+\begin{DoxyCompactList}\small\item\em Wektor przechowujący informacje o przeprowadzonych testach. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_benchmark_ad2c6e23af9c3a8c8592bbeabeb6e1a6d}{m\-\_\-repeat\-Num}
+\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+\subsubsection*{template$<$typename Problem\-Type$>$class Benchmark$<$ Problem\-Type $>$}
+
+Klasa pozwalająca na testowanie algorytmów. 
+
+Problem\-Type musi udostępniać określony interfejs tzn. musi implementować następujące metody\-: void read\-In\-Data(std\-::istream\& is = std\-::cin) void read\-Out\-Data(std\-::istream\& is = std\-::cin) bool is\-Correct() const void compute() void clear\-Data()
+
+Zalecane jest, aby dziedziczył on po klasie \hyperlink{class_problem}{Problem} 
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_benchmark_a31b07bc67080bad70e0695840f38d304}{\index{Benchmark@{Benchmark}!Benchmark@{Benchmark}}
+\index{Benchmark@{Benchmark}!Benchmark@{Benchmark}}
+\subsubsection[{Benchmark}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Problem\-Type $>$ {\bf Benchmark}$<$ Problem\-Type $>$\-::{\bf Benchmark} (
+\begin{DoxyParamCaption}
+\item[{int}]{repeat\-Num = {\ttfamily 10}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_benchmark_a31b07bc67080bad70e0695840f38d304}
+
+
+Konstruktor pozwalający na wybór ilości powtórzeń algorytmu dla danego rozmiaru problemu. 
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{class_benchmark_ae418c8bf313d8af29903414ab85d5482}{\index{Benchmark@{Benchmark}!save\-As\-C\-S\-V@{save\-As\-C\-S\-V}}
+\index{save\-As\-C\-S\-V@{save\-As\-C\-S\-V}!Benchmark@{Benchmark}}
+\subsubsection[{save\-As\-C\-S\-V}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Problem\-Type $>$ bool {\bf Benchmark}$<$ Problem\-Type $>$\-::save\-As\-C\-S\-V (
+\begin{DoxyParamCaption}
+\item[{std\-::ostream \&}]{os = {\ttfamily std\-:\-:cout}}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_ae418c8bf313d8af29903414ab85d5482}
+
+
+Metoda pozwala zapisać wyniki testów wydajnościowych do strumienia. 
+
+Format jest zgodny z C\-S\-V.
+
+
+\begin{DoxyParams}{Parametry}
+{\em os} & -\/ strumień wyjściowy, do którego mają zostać przekierowane wyniki \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_benchmark_aed80ebc889c52da37b8627c707651b8e}{\index{Benchmark@{Benchmark}!start@{start}}
+\index{start@{start}!Benchmark@{Benchmark}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Problem\-Type $>$ void {\bf Benchmark}$<$ Problem\-Type $>$\-::start (
+\begin{DoxyParamCaption}
+\item[{std\-::istream \&}]{is\-Input\-Data = {\ttfamily std\-:\-:cin}, }
+\item[{std\-::istream \&}]{is\-Correct\-Out\-Data = {\ttfamily std\-:\-:cin}}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_aed80ebc889c52da37b8627c707651b8e}
+
+
+Rozpoczyna testowanie algorytmu. 
+
+Metoda wczytuje dane wejściowe dla algorytmu, nastęnie poprawne dane wyjściowe. Wykonuje algorytm oraz sprawdza dane. Jeśli jest rozbieżność pomiędzy danymi wynikowymi zgłaszany jest wyjątek \char`\"{}\-Algorytm jest niepoprawny\char`\"{}. 
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_benchmark_a411654a4e38e256597715a627756b975}{\index{Benchmark@{Benchmark}!m\-\_\-all\-Benchmarks@{m\-\_\-all\-Benchmarks}}
+\index{m\-\_\-all\-Benchmarks@{m\-\_\-all\-Benchmarks}!Benchmark@{Benchmark}}
+\subsubsection[{m\-\_\-all\-Benchmarks}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Problem\-Type $>$ std\-::vector$<${\bf Benchmark\-Data}$>$ {\bf Benchmark}$<$ Problem\-Type $>$\-::m\-\_\-all\-Benchmarks\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a411654a4e38e256597715a627756b975}
+
+
+Wektor przechowujący informacje o przeprowadzonych testach. 
+
+\hypertarget{class_benchmark_a3757139b2e5a299b831471e0d43f5f6b}{\index{Benchmark@{Benchmark}!m\-\_\-problem@{m\-\_\-problem}}
+\index{m\-\_\-problem@{m\-\_\-problem}!Benchmark@{Benchmark}}
+\subsubsection[{m\-\_\-problem}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Problem\-Type $>$ Problem\-Type {\bf Benchmark}$<$ Problem\-Type $>$\-::m\-\_\-problem\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a3757139b2e5a299b831471e0d43f5f6b}
+
+
+Przechowuje obiekt, odpowiedzialny za algorytm. 
+
+Musi implementować metody, które zostały wspomniane w opisie klasy \hypertarget{class_benchmark_ad2c6e23af9c3a8c8592bbeabeb6e1a6d}{\index{Benchmark@{Benchmark}!m\-\_\-repeat\-Num@{m\-\_\-repeat\-Num}}
+\index{m\-\_\-repeat\-Num@{m\-\_\-repeat\-Num}!Benchmark@{Benchmark}}
+\subsubsection[{m\-\_\-repeat\-Num}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Problem\-Type $>$ unsigned int {\bf Benchmark}$<$ Problem\-Type $>$\-::m\-\_\-repeat\-Num\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_ad2c6e23af9c3a8c8592bbeabeb6e1a6d}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+/home/mochman/\-Politechnika/\-P\-A\-M\-S\-I/benchmark-\/multiply-\/by-\/2/prj/inc/\hyperlink{_benchmark_8hpp}{Benchmark.\-hpp}\end{DoxyCompactItemize}

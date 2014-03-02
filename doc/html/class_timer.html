@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>Benchmark: Dokumentacja klasy Timer</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Benchmark
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.3.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&#160;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;klas</span></a></li>
+      <li><a href="classes.html"><span>Indeks&#160;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&#160;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&#160;klas</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_timer.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Zmienne</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pub-static-methods">Statyczne metody publiczne</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="class_timer-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy Timer</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Klasa mierząca długość interwału czasu.  
+ <a href="class_timer.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_timer_8hpp_source.html">Timer.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a2dd502fa5a0d6827da5578e292d96942"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a2dd502fa5a0d6827da5578e292d96942">nsInterval</a> () const </td></tr>
+<tr class="memdesc:a2dd502fa5a0d6827da5578e292d96942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oblicza długość odcinka czasu w nanosekundach.  <a href="#a2dd502fa5a0d6827da5578e292d96942">Więcej...</a><br/></td></tr>
+<tr class="separator:a2dd502fa5a0d6827da5578e292d96942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a124742f864cf5913b63807ff8b3a6c7a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a124742f864cf5913b63807ff8b3a6c7a">usInterval</a> () const </td></tr>
+<tr class="memdesc:a124742f864cf5913b63807ff8b3a6c7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oblicza długość odcinka czasu w mikrosekundach.  <a href="#a124742f864cf5913b63807ff8b3a6c7a">Więcej...</a><br/></td></tr>
+<tr class="separator:a124742f864cf5913b63807ff8b3a6c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82a672b3866241f01351b4581113aba3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a82a672b3866241f01351b4581113aba3">msInterval</a> () const </td></tr>
+<tr class="memdesc:a82a672b3866241f01351b4581113aba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oblicza długość odcinka czasu w milisekundach.  <a href="#a82a672b3866241f01351b4581113aba3">Więcej...</a><br/></td></tr>
+<tr class="separator:a82a672b3866241f01351b4581113aba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acabb155ab43e81e2fc8c568d73d1d1d3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#acabb155ab43e81e2fc8c568d73d1d1d3">sInterval</a> () const </td></tr>
+<tr class="memdesc:acabb155ab43e81e2fc8c568d73d1d1d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oblicza długość odcinka czasu w sekundach.  <a href="#acabb155ab43e81e2fc8c568d73d1d1d3">Więcej...</a><br/></td></tr>
+<tr class="separator:acabb155ab43e81e2fc8c568d73d1d1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8b5272198d029779dc9302a54305a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a3a8b5272198d029779dc9302a54305a8">start</a> ()</td></tr>
+<tr class="memdesc:a3a8b5272198d029779dc9302a54305a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zaczyna odmierzać czas.  <a href="#a3a8b5272198d029779dc9302a54305a8">Więcej...</a><br/></td></tr>
+<tr class="separator:a3a8b5272198d029779dc9302a54305a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f0eb44b27402196590a03781515dba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a63f0eb44b27402196590a03781515dba">stop</a> ()</td></tr>
+<tr class="memdesc:a63f0eb44b27402196590a03781515dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kończy odmierzać czas.  <a href="#a63f0eb44b27402196590a03781515dba">Więcej...</a><br/></td></tr>
+<tr class="separator:a63f0eb44b27402196590a03781515dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Statyczne metody publiczne</h2></td></tr>
+<tr class="memitem:a65402ab97ec7d3009f3ee3edfa5b1db4"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a65402ab97ec7d3009f3ee3edfa5b1db4">precision</a> ()</td></tr>
+<tr class="memdesc:a65402ab97ec7d3009f3ee3edfa5b1db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zwraca precyzję zegara w sekundach.  <a href="#a65402ab97ec7d3009f3ee3edfa5b1db4">Więcej...</a><br/></td></tr>
+<tr class="separator:a65402ab97ec7d3009f3ee3edfa5b1db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:ac14f6ea6f71c3eef3c88780e009741c8"><td class="memItemLeft" align="right" valign="top">std::chrono::high_resolution_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#ac14f6ea6f71c3eef3c88780e009741c8">m_start</a></td></tr>
+<tr class="memdesc:ac14f6ea6f71c3eef3c88780e009741c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przechowuje informacje o chwili od której odliczać czas.  <a href="#ac14f6ea6f71c3eef3c88780e009741c8">Więcej...</a><br/></td></tr>
+<tr class="separator:ac14f6ea6f71c3eef3c88780e009741c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aef0f9d32d37b36b843e60eb10d0644"><td class="memItemLeft" align="right" valign="top">std::chrono::high_resolution_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a9aef0f9d32d37b36b843e60eb10d0644">m_end</a></td></tr>
+<tr class="memdesc:a9aef0f9d32d37b36b843e60eb10d0644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przechowuje informacje o chwili do której odliczać czas.  <a href="#a9aef0f9d32d37b36b843e60eb10d0644">Więcej...</a><br/></td></tr>
+<tr class="separator:a9aef0f9d32d37b36b843e60eb10d0644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Klasa mierząca długość interwału czasu. </p>
+<p>Do funkcjonowania używa high_resolution_clock z z biblioteki standardowej C++. </p>
+</div><h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a82a672b3866241f01351b4581113aba3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Timer::msInterval </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Oblicza długość odcinka czasu w milisekundach. </p>
+<p>Jeśli nie została użyta metoda <a class="el" href="class_timer.html#a3a8b5272198d029779dc9302a54305a8" title="Zaczyna odmierzać czas.">start()</a> to czas liczony jest od tzw epoch. Jeśli zostanie użyta metoda end() a <a class="el" href="class_timer.html#a3a8b5272198d029779dc9302a54305a8" title="Zaczyna odmierzać czas.">start()</a> nie to pojawi się ujemny czas liczony od epoch </p>
+
+</div>
+</div>
+<a class="anchor" id="a2dd502fa5a0d6827da5578e292d96942"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Timer::nsInterval </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Oblicza długość odcinka czasu w nanosekundach. </p>
+<p>Jeśli nie została użyta metoda <a class="el" href="class_timer.html#a3a8b5272198d029779dc9302a54305a8" title="Zaczyna odmierzać czas.">start()</a> to czas liczony jest od tzw epoch. Jeśli zostanie użyta metoda end() a <a class="el" href="class_timer.html#a3a8b5272198d029779dc9302a54305a8" title="Zaczyna odmierzać czas.">start()</a> nie to pojawi się ujemny czas liczony od epoch UWAGA! Nie na każdym systemie dokładność czasu jest tak duża! </p>
+
+</div>
+</div>
+<a class="anchor" id="a65402ab97ec7d3009f3ee3edfa5b1db4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Timer::precision </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Zwraca precyzję zegara w sekundach. </p>
+
+</div>
+</div>
+<a class="anchor" id="acabb155ab43e81e2fc8c568d73d1d1d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Timer::sInterval </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Oblicza długość odcinka czasu w sekundach. </p>
+<p>Jeśli nie została użyta metoda <a class="el" href="class_timer.html#a3a8b5272198d029779dc9302a54305a8" title="Zaczyna odmierzać czas.">start()</a> to czas liczony jest od tzw epoch. Jeśli zostanie użyta metoda end() a <a class="el" href="class_timer.html#a3a8b5272198d029779dc9302a54305a8" title="Zaczyna odmierzać czas.">start()</a> nie to pojawi się ujemny czas liczony od epoch </p>
+
+</div>
+</div>
+<a class="anchor" id="a3a8b5272198d029779dc9302a54305a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Timer::start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Zaczyna odmierzać czas. </p>
+<p>Metoda zapisuje do prywatnego pola aktualną chwilę, od której ma być liczony czas </p>
+
+</div>
+</div>
+<a class="anchor" id="a63f0eb44b27402196590a03781515dba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Timer::stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Kończy odmierzać czas. </p>
+<p>Metoda zapisuje do prywatnego pola aktualną chwilę, do której ma być liczony czas </p>
+
+</div>
+</div>
+<a class="anchor" id="a124742f864cf5913b63807ff8b3a6c7a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Timer::usInterval </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Oblicza długość odcinka czasu w mikrosekundach. </p>
+<p>Jeśli nie została użyta metoda <a class="el" href="class_timer.html#a3a8b5272198d029779dc9302a54305a8" title="Zaczyna odmierzać czas.">start()</a> to czas liczony jest od tzw epoch. Jeśli zostanie użyta metoda end() a <a class="el" href="class_timer.html#a3a8b5272198d029779dc9302a54305a8" title="Zaczyna odmierzać czas.">start()</a> nie to pojawi się ujemny czas liczony od epoch </p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a class="anchor" id="a9aef0f9d32d37b36b843e60eb10d0644"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::high_resolution_clock::time_point Timer::m_end</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Przechowuje informacje o chwili do której odliczać czas. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac14f6ea6f71c3eef3c88780e009741c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::high_resolution_clock::time_point Timer::m_start</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Przechowuje informacje o chwili od której odliczać czas. </p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>/home/mochman/Politechnika/PAMSI/benchmark-multiply-by-2/prj/inc/<a class="el" href="_timer_8hpp_source.html">Timer.hpp</a></li>
+<li>/home/mochman/Politechnika/PAMSI/benchmark-multiply-by-2/prj/src/<a class="el" href="_timer_8cpp.html">Timer.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_timer.html">Timer</a></li>
+    <li class="footer">Wygenerowano N, 2 mar 2014 13:40:01 dla Benchmark programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
+  </ul>
+</div>
+</body>
+</html>

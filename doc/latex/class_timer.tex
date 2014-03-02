@@ -1,0 +1,147 @@
+\hypertarget{class_timer}{\section{Dokumentacja klasy Timer}
+\label{class_timer}\index{Timer@{Timer}}
+}
+
+
+Klasa mierząca długość interwału czasu.  
+
+
+
+
+{\ttfamily \#include $<$Timer.\-hpp$>$}
+
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_timer_a2dd502fa5a0d6827da5578e292d96942}{ns\-Interval} () const 
+\begin{DoxyCompactList}\small\item\em Oblicza długość odcinka czasu w nanosekundach. \end{DoxyCompactList}\item 
+double \hyperlink{class_timer_a124742f864cf5913b63807ff8b3a6c7a}{us\-Interval} () const 
+\begin{DoxyCompactList}\small\item\em Oblicza długość odcinka czasu w mikrosekundach. \end{DoxyCompactList}\item 
+double \hyperlink{class_timer_a82a672b3866241f01351b4581113aba3}{ms\-Interval} () const 
+\begin{DoxyCompactList}\small\item\em Oblicza długość odcinka czasu w milisekundach. \end{DoxyCompactList}\item 
+double \hyperlink{class_timer_acabb155ab43e81e2fc8c568d73d1d1d3}{s\-Interval} () const 
+\begin{DoxyCompactList}\small\item\em Oblicza długość odcinka czasu w sekundach. \end{DoxyCompactList}\item 
+void \hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start} ()
+\begin{DoxyCompactList}\small\item\em Zaczyna odmierzać czas. \end{DoxyCompactList}\item 
+void \hyperlink{class_timer_a63f0eb44b27402196590a03781515dba}{stop} ()
+\begin{DoxyCompactList}\small\item\em Kończy odmierzać czas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Statyczne metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+static double \hyperlink{class_timer_a65402ab97ec7d3009f3ee3edfa5b1db4}{precision} ()
+\begin{DoxyCompactList}\small\item\em Zwraca precyzję zegara w sekundach. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+std\-::chrono\-::high\-\_\-resolution\-\_\-clock\-::time\-\_\-point \hyperlink{class_timer_ac14f6ea6f71c3eef3c88780e009741c8}{m\-\_\-start}
+\begin{DoxyCompactList}\small\item\em Przechowuje informacje o chwili od której odliczać czas. \end{DoxyCompactList}\item 
+std\-::chrono\-::high\-\_\-resolution\-\_\-clock\-::time\-\_\-point \hyperlink{class_timer_a9aef0f9d32d37b36b843e60eb10d0644}{m\-\_\-end}
+\begin{DoxyCompactList}\small\item\em Przechowuje informacje o chwili do której odliczać czas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Klasa mierząca długość interwału czasu. 
+
+Do funkcjonowania używa high\-\_\-resolution\-\_\-clock z z biblioteki standardowej C++. 
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{class_timer_a82a672b3866241f01351b4581113aba3}{\index{Timer@{Timer}!ms\-Interval@{ms\-Interval}}
+\index{ms\-Interval@{ms\-Interval}!Timer@{Timer}}
+\subsubsection[{ms\-Interval}]{\setlength{\rightskip}{0pt plus 5cm}double Timer\-::ms\-Interval (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_timer_a82a672b3866241f01351b4581113aba3}
+
+
+Oblicza długość odcinka czasu w milisekundach. 
+
+Jeśli nie została użyta metoda \hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start()} to czas liczony jest od tzw epoch. Jeśli zostanie użyta metoda end() a \hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start()} nie to pojawi się ujemny czas liczony od epoch \hypertarget{class_timer_a2dd502fa5a0d6827da5578e292d96942}{\index{Timer@{Timer}!ns\-Interval@{ns\-Interval}}
+\index{ns\-Interval@{ns\-Interval}!Timer@{Timer}}
+\subsubsection[{ns\-Interval}]{\setlength{\rightskip}{0pt plus 5cm}double Timer\-::ns\-Interval (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_timer_a2dd502fa5a0d6827da5578e292d96942}
+
+
+Oblicza długość odcinka czasu w nanosekundach. 
+
+Jeśli nie została użyta metoda \hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start()} to czas liczony jest od tzw epoch. Jeśli zostanie użyta metoda end() a \hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start()} nie to pojawi się ujemny czas liczony od epoch U\-W\-A\-G\-A! Nie na każdym systemie dokładność czasu jest tak duża! \hypertarget{class_timer_a65402ab97ec7d3009f3ee3edfa5b1db4}{\index{Timer@{Timer}!precision@{precision}}
+\index{precision@{precision}!Timer@{Timer}}
+\subsubsection[{precision}]{\setlength{\rightskip}{0pt plus 5cm}double Timer\-::precision (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_timer_a65402ab97ec7d3009f3ee3edfa5b1db4}
+
+
+Zwraca precyzję zegara w sekundach. 
+
+\hypertarget{class_timer_acabb155ab43e81e2fc8c568d73d1d1d3}{\index{Timer@{Timer}!s\-Interval@{s\-Interval}}
+\index{s\-Interval@{s\-Interval}!Timer@{Timer}}
+\subsubsection[{s\-Interval}]{\setlength{\rightskip}{0pt plus 5cm}double Timer\-::s\-Interval (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_timer_acabb155ab43e81e2fc8c568d73d1d1d3}
+
+
+Oblicza długość odcinka czasu w sekundach. 
+
+Jeśli nie została użyta metoda \hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start()} to czas liczony jest od tzw epoch. Jeśli zostanie użyta metoda end() a \hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start()} nie to pojawi się ujemny czas liczony od epoch \hypertarget{class_timer_a3a8b5272198d029779dc9302a54305a8}{\index{Timer@{Timer}!start@{start}}
+\index{start@{start}!Timer@{Timer}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}void Timer\-::start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_timer_a3a8b5272198d029779dc9302a54305a8}
+
+
+Zaczyna odmierzać czas. 
+
+Metoda zapisuje do prywatnego pola aktualną chwilę, od której ma być liczony czas \hypertarget{class_timer_a63f0eb44b27402196590a03781515dba}{\index{Timer@{Timer}!stop@{stop}}
+\index{stop@{stop}!Timer@{Timer}}
+\subsubsection[{stop}]{\setlength{\rightskip}{0pt plus 5cm}void Timer\-::stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_timer_a63f0eb44b27402196590a03781515dba}
+
+
+Kończy odmierzać czas. 
+
+Metoda zapisuje do prywatnego pola aktualną chwilę, do której ma być liczony czas \hypertarget{class_timer_a124742f864cf5913b63807ff8b3a6c7a}{\index{Timer@{Timer}!us\-Interval@{us\-Interval}}
+\index{us\-Interval@{us\-Interval}!Timer@{Timer}}
+\subsubsection[{us\-Interval}]{\setlength{\rightskip}{0pt plus 5cm}double Timer\-::us\-Interval (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_timer_a124742f864cf5913b63807ff8b3a6c7a}
+
+
+Oblicza długość odcinka czasu w mikrosekundach. 
+
+Jeśli nie została użyta metoda \hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start()} to czas liczony jest od tzw epoch. Jeśli zostanie użyta metoda end() a \hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start()} nie to pojawi się ujemny czas liczony od epoch 
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_timer_a9aef0f9d32d37b36b843e60eb10d0644}{\index{Timer@{Timer}!m\-\_\-end@{m\-\_\-end}}
+\index{m\-\_\-end@{m\-\_\-end}!Timer@{Timer}}
+\subsubsection[{m\-\_\-end}]{\setlength{\rightskip}{0pt plus 5cm}std\-::chrono\-::high\-\_\-resolution\-\_\-clock\-::time\-\_\-point Timer\-::m\-\_\-end\hspace{0.3cm}{\ttfamily [private]}}}\label{class_timer_a9aef0f9d32d37b36b843e60eb10d0644}
+
+
+Przechowuje informacje o chwili do której odliczać czas. 
+
+\hypertarget{class_timer_ac14f6ea6f71c3eef3c88780e009741c8}{\index{Timer@{Timer}!m\-\_\-start@{m\-\_\-start}}
+\index{m\-\_\-start@{m\-\_\-start}!Timer@{Timer}}
+\subsubsection[{m\-\_\-start}]{\setlength{\rightskip}{0pt plus 5cm}std\-::chrono\-::high\-\_\-resolution\-\_\-clock\-::time\-\_\-point Timer\-::m\-\_\-start\hspace{0.3cm}{\ttfamily [private]}}}\label{class_timer_ac14f6ea6f71c3eef3c88780e009741c8}
+
+
+Przechowuje informacje o chwili od której odliczać czas. 
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+/home/mochman/\-Politechnika/\-P\-A\-M\-S\-I/benchmark-\/multiply-\/by-\/2/prj/inc/\hyperlink{_timer_8hpp}{Timer.\-hpp}\item 
+/home/mochman/\-Politechnika/\-P\-A\-M\-S\-I/benchmark-\/multiply-\/by-\/2/prj/src/\hyperlink{_timer_8cpp}{Timer.\-cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,175 @@
+\hypertarget{class_problem}{\section{Dokumentacja klasy Problem}
+\label{class_problem}\index{Problem@{Problem}}
+}
+
+
+Abstrakcyjna klasa reprezentująca problem algorytmiczny.  
+
+
+
+
+{\ttfamily \#include $<$Problem.\-hpp$>$}
+
+Diagram dziedziczenia dla Problem\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.608696cm]{class_problem}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_problem_a8e3f5755480a44a5dfe767b5429572c9}{read\-In\-Data} (std\-::istream \&is=std\-::cin)=0
+\begin{DoxyCompactList}\small\item\em Wczytuje dane wejściowe algorytmu. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_problem_af92be524acb6f1d6b484eff1fce07d2c}{read\-Out\-Data} (std\-::istream \&is=std\-::cin)=0
+\begin{DoxyCompactList}\small\item\em Wczytuje poprawne dane wyjściowe algorytmu. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_problem_a55aef8681a2282a431abb77039cd01c1}{is\-Correct} () const =0
+\begin{DoxyCompactList}\small\item\em Sprawdza czy wynik algorytmu jest poprawny. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_problem_a278fa7a764e308758dbf9c07757ef037}{compute} ()=0
+\begin{DoxyCompactList}\small\item\em Rozpoczyna pracę algorytmu. \end{DoxyCompactList}\item 
+virtual unsigned int \hyperlink{class_problem_a938aceef78b28c64c03616a3fa619ec0}{problem\-Size} () const =0
+\begin{DoxyCompactList}\small\item\em Pozwala pobrać rozmiar problemu. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_problem_aa67aec5ea247cc9e6616a71345399a08}{problem\-Size} (unsigned int size)=0
+\begin{DoxyCompactList}\small\item\em Pozwala ustawić rozmiar problemu. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_problem_ad44a9ce61243b8f5c396795262990b82}{clear\-Data} ()=0
+\begin{DoxyCompactList}\small\item\em Usuwa wszystkie dane. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_problem_ab31e378c1a54e149c8c6df5f6a534cad}{$\sim$\-Problem} ()=default
+\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Abstrakcyjna klasa reprezentująca problem algorytmiczny. 
+
+Definiuje interfejs podstawowych operacji dla problemu tzn. wczytanie danych, przeprowadzenie obliczeń, sprawdzenie poprawności algorytmu 
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_problem_ab31e378c1a54e149c8c6df5f6a534cad}{\index{Problem@{Problem}!$\sim$\-Problem@{$\sim$\-Problem}}
+\index{$\sim$\-Problem@{$\sim$\-Problem}!Problem@{Problem}}
+\subsubsection[{$\sim$\-Problem}]{\setlength{\rightskip}{0pt plus 5cm}virtual Problem\-::$\sim$\-Problem (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}}\label{class_problem_ab31e378c1a54e149c8c6df5f6a534cad}
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{class_problem_ad44a9ce61243b8f5c396795262990b82}{\index{Problem@{Problem}!clear\-Data@{clear\-Data}}
+\index{clear\-Data@{clear\-Data}!Problem@{Problem}}
+\subsubsection[{clear\-Data}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Problem\-::clear\-Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_problem_ad44a9ce61243b8f5c396795262990b82}
+
+
+Usuwa wszystkie dane. 
+
+Pozbywa się z pamięci wszyskich danych wejsciowych, poprawnych wyjsciowych itp 
+
+Implementowany w \hyperlink{class_standard_problem_a18639f20294c49814faf32a04f1317fa}{Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$} i \hyperlink{class_standard_problem_a18639f20294c49814faf32a04f1317fa}{Standard\-Problem$<$$>$}.
+
+\hypertarget{class_problem_a278fa7a764e308758dbf9c07757ef037}{\index{Problem@{Problem}!compute@{compute}}
+\index{compute@{compute}!Problem@{Problem}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Problem\-::compute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_problem_a278fa7a764e308758dbf9c07757ef037}
+
+
+Rozpoczyna pracę algorytmu. 
+
+
+
+Implementowany w \hyperlink{class_standard_problem_ad9d90f5c981806bed7c6b4a08abb0384}{Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$}, \hyperlink{class_standard_problem_ad9d90f5c981806bed7c6b4a08abb0384}{Standard\-Problem$<$$>$} i \hyperlink{class_multiply_by2_a77fc7fe07db4a9b52997320ff118d00f}{Multiply\-By2}.
+
+\hypertarget{class_problem_a55aef8681a2282a431abb77039cd01c1}{\index{Problem@{Problem}!is\-Correct@{is\-Correct}}
+\index{is\-Correct@{is\-Correct}!Problem@{Problem}}
+\subsubsection[{is\-Correct}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Problem\-::is\-Correct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_problem_a55aef8681a2282a431abb77039cd01c1}
+
+
+Sprawdza czy wynik algorytmu jest poprawny. 
+
+Dokonuje porównania wczytanych poprawnych danych z wynikiem algorytmu 
+
+Implementowany w \hyperlink{class_standard_problem_aeab390b5968292a6bcb95d13d98bc62e}{Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$} i \hyperlink{class_standard_problem_aeab390b5968292a6bcb95d13d98bc62e}{Standard\-Problem$<$$>$}.
+
+\hypertarget{class_problem_a938aceef78b28c64c03616a3fa619ec0}{\index{Problem@{Problem}!problem\-Size@{problem\-Size}}
+\index{problem\-Size@{problem\-Size}!Problem@{Problem}}
+\subsubsection[{problem\-Size}]{\setlength{\rightskip}{0pt plus 5cm}virtual unsigned int Problem\-::problem\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_problem_a938aceef78b28c64c03616a3fa619ec0}
+
+
+Pozwala pobrać rozmiar problemu. 
+
+
+
+Implementowany w \hyperlink{class_standard_problem_a5a17f86a21c915ae373a273a01be91ac}{Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$} i \hyperlink{class_standard_problem_a5a17f86a21c915ae373a273a01be91ac}{Standard\-Problem$<$$>$}.
+
+\hypertarget{class_problem_aa67aec5ea247cc9e6616a71345399a08}{\index{Problem@{Problem}!problem\-Size@{problem\-Size}}
+\index{problem\-Size@{problem\-Size}!Problem@{Problem}}
+\subsubsection[{problem\-Size}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Problem\-::problem\-Size (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_problem_aa67aec5ea247cc9e6616a71345399a08}
+
+
+Pozwala ustawić rozmiar problemu. 
+
+
+
+Implementowany w \hyperlink{class_standard_problem_acddecc170b1e6e1c662df258ebfd5881}{Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$} i \hyperlink{class_standard_problem_acddecc170b1e6e1c662df258ebfd5881}{Standard\-Problem$<$$>$}.
+
+\hypertarget{class_problem_a8e3f5755480a44a5dfe767b5429572c9}{\index{Problem@{Problem}!read\-In\-Data@{read\-In\-Data}}
+\index{read\-In\-Data@{read\-In\-Data}!Problem@{Problem}}
+\subsubsection[{read\-In\-Data}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Problem\-::read\-In\-Data (
+\begin{DoxyParamCaption}
+\item[{std\-::istream \&}]{is = {\ttfamily std\-:\-:cin}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_problem_a8e3f5755480a44a5dfe767b5429572c9}
+
+
+Wczytuje dane wejściowe algorytmu. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em is} & -\/ strumień z którego mają zostać wczytane dane \\
+\hline
+\end{DoxyParams}
+
+
+Implementowany w \hyperlink{class_standard_problem_aaaf63ba0accbe5a4d6182fef2ccc448b}{Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$} i \hyperlink{class_standard_problem_aaaf63ba0accbe5a4d6182fef2ccc448b}{Standard\-Problem$<$$>$}.
+
+\hypertarget{class_problem_af92be524acb6f1d6b484eff1fce07d2c}{\index{Problem@{Problem}!read\-Out\-Data@{read\-Out\-Data}}
+\index{read\-Out\-Data@{read\-Out\-Data}!Problem@{Problem}}
+\subsubsection[{read\-Out\-Data}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Problem\-::read\-Out\-Data (
+\begin{DoxyParamCaption}
+\item[{std\-::istream \&}]{is = {\ttfamily std\-:\-:cin}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_problem_af92be524acb6f1d6b484eff1fce07d2c}
+
+
+Wczytuje poprawne dane wyjściowe algorytmu. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em is} & -\/ strumień z którego mają zostać wczytane dane \\
+\hline
+\end{DoxyParams}
+
+
+Implementowany w \hyperlink{class_standard_problem_a57d12a8e60de6af15273df44527a0769}{Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$} i \hyperlink{class_standard_problem_a57d12a8e60de6af15273df44527a0769}{Standard\-Problem$<$$>$}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+/home/mochman/\-Politechnika/\-P\-A\-M\-S\-I/benchmark-\/multiply-\/by-\/2/prj/inc/\hyperlink{_problem_8hpp}{Problem.\-hpp}\end{DoxyCompactItemize}

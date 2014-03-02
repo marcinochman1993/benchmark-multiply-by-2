@@ -1,0 +1,15 @@
+Jest to program testujący wydajność algorytmu, ktory 
+przemnaża każdy element wektora przez 2. Ze względu na
+brak przykładowego pliku z danymi wejściowymi założyłem, że
+wygląda on następująco:
+1) pierwsza linia - liczba określająca ilość powtórzeń dla każdego rozmiaru problemu
+2) rozmiar problemu (n)
+3) n liczb jako wejście dla algorytmu
+4) n liczb jako poprawne wyjście dla algorytmu
+5) jeśli nie wystąpił koniec pliku idź do 2)
+W folderze tools jest skrypt napisany w python, który generuje poprawny plik.
+
+Drugą opcją jest podział na dwa pliki - wejściowy, który zawiera
+tylko wejście i drugi, który zawiera poprawne wyjście.
+Uruchamiając program należy wpisać jako argumenty nazwy 3 plików - wejście, poprawne wyjście
+oraz wyjście programu.

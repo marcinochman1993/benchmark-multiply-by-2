@@ -1,0 +1,204 @@
+\hypertarget{class_standard_problem}{\section{Dokumentacja szablonu klasy Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$}
+\label{class_standard_problem}\index{Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$@{Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$}}
+}
+
+
+Klasa definiuje standardowy problem algorytmiczny.  
+
+
+
+
+{\ttfamily \#include $<$Standard\-Problem.\-hpp$>$}
+
+Diagram dziedziczenia dla Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_standard_problem}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_standard_problem_aaaf63ba0accbe5a4d6182fef2ccc448b}{read\-In\-Data} (std\-::istream \&is=std\-::cin)
+\begin{DoxyCompactList}\small\item\em Patrz \hyperlink{class_problem_a8e3f5755480a44a5dfe767b5429572c9}{Problem\-::read\-In\-Data}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_standard_problem_a57d12a8e60de6af15273df44527a0769}{read\-Out\-Data} (std\-::istream \&is=std\-::cin)
+\begin{DoxyCompactList}\small\item\em Patrz \hyperlink{class_problem_af92be524acb6f1d6b484eff1fce07d2c}{Problem\-::read\-Out\-Data}. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_standard_problem_aeab390b5968292a6bcb95d13d98bc62e}{is\-Correct} () const 
+\begin{DoxyCompactList}\small\item\em Patrz \hyperlink{class_problem_a55aef8681a2282a431abb77039cd01c1}{Problem\-::is\-Correct}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_standard_problem_ad9d90f5c981806bed7c6b4a08abb0384}{compute} ()=0
+\begin{DoxyCompactList}\small\item\em Patrz \hyperlink{class_problem_a278fa7a764e308758dbf9c07757ef037}{Problem\-::compute}. \end{DoxyCompactList}\item 
+virtual unsigned int \hyperlink{class_standard_problem_a5a17f86a21c915ae373a273a01be91ac}{problem\-Size} () const 
+\begin{DoxyCompactList}\small\item\em Patrz \hyperlink{class_problem_a938aceef78b28c64c03616a3fa619ec0}{Problem\-::problem\-Size}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_standard_problem_acddecc170b1e6e1c662df258ebfd5881}{problem\-Size} (unsigned int size)
+\begin{DoxyCompactList}\small\item\em Patrz \hyperlink{class_problem_aa67aec5ea247cc9e6616a71345399a08}{Problem\-::problem\-Size(unsigned int)} \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_standard_problem_a18639f20294c49814faf32a04f1317fa}{clear\-Data} ()
+\begin{DoxyCompactList}\small\item\em Usuwa wszystkie dane. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty chronione}
+\begin{DoxyCompactItemize}
+\item 
+std\-::vector$<$ Input\-Data\-Type $>$ \hyperlink{class_standard_problem_ad1d5f039cd59372664a18ee57485252a}{m\-\_\-input\-Data}
+\begin{DoxyCompactList}\small\item\em Wektor przechowujący dane wejściowe. \end{DoxyCompactList}\item 
+std\-::vector$<$ Output\-Data\-Type $>$ \hyperlink{class_standard_problem_a2ca81280f88e1d8091cacceae8f2e073}{m\-\_\-output\-Data}
+\begin{DoxyCompactList}\small\item\em Wektor przechowujący dane wyjściowe. \end{DoxyCompactList}\item 
+std\-::vector$<$ Output\-Data\-Type $>$ \hyperlink{class_standard_problem_a7b736a0a91726c54363cedc43c80fbd2}{m\-\_\-correct\-Output\-Data}
+\begin{DoxyCompactList}\small\item\em Wektor przechowujący poprawne dane wyjściowe. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{class_standard_problem_ae8fc195a5e90d5cf0dd6c0417654741a}{m\-\_\-problem\-Size}
+\begin{DoxyCompactList}\small\item\em Pole przechowujące rozmiar problemu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+\subsubsection*{template$<$typename Input\-Data\-Type = double, typename Output\-Data\-Type = double$>$class Standard\-Problem$<$ Input\-Data\-Type, Output\-Data\-Type $>$}
+
+Klasa definiuje standardowy problem algorytmiczny. 
+
+Poprzez standardowy problem algorytmiczny rozumiem problem, w którym wczytuje się rozmiar problemu a następnie tablicę tego samego typu. Wynikiem jest zbiór liczb tego samego typu o tej samej liczności Przykładem może być np. mnożenie tablicy przez stałą, sortowanie itp. 
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{class_standard_problem_a18639f20294c49814faf32a04f1317fa}{\index{Standard\-Problem@{Standard\-Problem}!clear\-Data@{clear\-Data}}
+\index{clear\-Data@{clear\-Data}!StandardProblem@{Standard\-Problem}}
+\subsubsection[{clear\-Data}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Input\-Data\-Type , typename Output\-Data\-Type $>$ void {\bf Standard\-Problem}$<$ Input\-Data\-Type, Output\-Data\-Type $>$\-::clear\-Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_standard_problem_a18639f20294c49814faf32a04f1317fa}
+
+
+Usuwa wszystkie dane. 
+
+Pozbywa się z pamięci wszyskich danych wejsciowych, poprawnych wyjsciowych itp 
+
+Implementuje \hyperlink{class_problem_ad44a9ce61243b8f5c396795262990b82}{Problem}.
+
+\hypertarget{class_standard_problem_ad9d90f5c981806bed7c6b4a08abb0384}{\index{Standard\-Problem@{Standard\-Problem}!compute@{compute}}
+\index{compute@{compute}!StandardProblem@{Standard\-Problem}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Input\-Data\-Type = double, typename Output\-Data\-Type = double$>$ virtual void {\bf Standard\-Problem}$<$ Input\-Data\-Type, Output\-Data\-Type $>$\-::compute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_standard_problem_ad9d90f5c981806bed7c6b4a08abb0384}
+
+
+Patrz \hyperlink{class_problem_a278fa7a764e308758dbf9c07757ef037}{Problem\-::compute}. 
+
+
+
+Implementuje \hyperlink{class_problem_a278fa7a764e308758dbf9c07757ef037}{Problem}.
+
+
+
+Implementowany w \hyperlink{class_multiply_by2_a77fc7fe07db4a9b52997320ff118d00f}{Multiply\-By2}.
+
+\hypertarget{class_standard_problem_aeab390b5968292a6bcb95d13d98bc62e}{\index{Standard\-Problem@{Standard\-Problem}!is\-Correct@{is\-Correct}}
+\index{is\-Correct@{is\-Correct}!StandardProblem@{Standard\-Problem}}
+\subsubsection[{is\-Correct}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Input\-Data\-Type , typename Output\-Data\-Type $>$ bool {\bf Standard\-Problem}$<$ Input\-Data\-Type, Output\-Data\-Type $>$\-::is\-Correct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_standard_problem_aeab390b5968292a6bcb95d13d98bc62e}
+
+
+Patrz \hyperlink{class_problem_a55aef8681a2282a431abb77039cd01c1}{Problem\-::is\-Correct}. 
+
+
+
+Implementuje \hyperlink{class_problem_a55aef8681a2282a431abb77039cd01c1}{Problem}.
+
+\hypertarget{class_standard_problem_a5a17f86a21c915ae373a273a01be91ac}{\index{Standard\-Problem@{Standard\-Problem}!problem\-Size@{problem\-Size}}
+\index{problem\-Size@{problem\-Size}!StandardProblem@{Standard\-Problem}}
+\subsubsection[{problem\-Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Input\-Data\-Type = double, typename Output\-Data\-Type = double$>$ virtual unsigned int {\bf Standard\-Problem}$<$ Input\-Data\-Type, Output\-Data\-Type $>$\-::problem\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_standard_problem_a5a17f86a21c915ae373a273a01be91ac}
+
+
+Patrz \hyperlink{class_problem_a938aceef78b28c64c03616a3fa619ec0}{Problem\-::problem\-Size}. 
+
+
+
+Implementuje \hyperlink{class_problem_a938aceef78b28c64c03616a3fa619ec0}{Problem}.
+
+\hypertarget{class_standard_problem_acddecc170b1e6e1c662df258ebfd5881}{\index{Standard\-Problem@{Standard\-Problem}!problem\-Size@{problem\-Size}}
+\index{problem\-Size@{problem\-Size}!StandardProblem@{Standard\-Problem}}
+\subsubsection[{problem\-Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Input\-Data\-Type = double, typename Output\-Data\-Type = double$>$ virtual void {\bf Standard\-Problem}$<$ Input\-Data\-Type, Output\-Data\-Type $>$\-::problem\-Size (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_standard_problem_acddecc170b1e6e1c662df258ebfd5881}
+
+
+Patrz \hyperlink{class_problem_aa67aec5ea247cc9e6616a71345399a08}{Problem\-::problem\-Size(unsigned int)} 
+
+Dodatkowo zmiana powoduje wyczyszczenie wszystkich danych oraz rezerwację pamięci o odpowiedniej wielkości 
+
+Implementuje \hyperlink{class_problem_aa67aec5ea247cc9e6616a71345399a08}{Problem}.
+
+\hypertarget{class_standard_problem_aaaf63ba0accbe5a4d6182fef2ccc448b}{\index{Standard\-Problem@{Standard\-Problem}!read\-In\-Data@{read\-In\-Data}}
+\index{read\-In\-Data@{read\-In\-Data}!StandardProblem@{Standard\-Problem}}
+\subsubsection[{read\-In\-Data}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Input\-Data\-Type , typename Output\-Data\-Type $>$ void {\bf Standard\-Problem}$<$ Input\-Data\-Type, Output\-Data\-Type $>$\-::read\-In\-Data (
+\begin{DoxyParamCaption}
+\item[{std\-::istream \&}]{is = {\ttfamily std\-:\-:cin}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_standard_problem_aaaf63ba0accbe5a4d6182fef2ccc448b}
+
+
+Patrz \hyperlink{class_problem_a8e3f5755480a44a5dfe767b5429572c9}{Problem\-::read\-In\-Data}. 
+
+
+
+Implementuje \hyperlink{class_problem_a8e3f5755480a44a5dfe767b5429572c9}{Problem}.
+
+\hypertarget{class_standard_problem_a57d12a8e60de6af15273df44527a0769}{\index{Standard\-Problem@{Standard\-Problem}!read\-Out\-Data@{read\-Out\-Data}}
+\index{read\-Out\-Data@{read\-Out\-Data}!StandardProblem@{Standard\-Problem}}
+\subsubsection[{read\-Out\-Data}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Input\-Data\-Type , typename Output\-Data\-Type $>$ void {\bf Standard\-Problem}$<$ Input\-Data\-Type, Output\-Data\-Type $>$\-::read\-Out\-Data (
+\begin{DoxyParamCaption}
+\item[{std\-::istream \&}]{is = {\ttfamily std\-:\-:cin}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_standard_problem_a57d12a8e60de6af15273df44527a0769}
+
+
+Patrz \hyperlink{class_problem_af92be524acb6f1d6b484eff1fce07d2c}{Problem\-::read\-Out\-Data}. 
+
+
+
+Implementuje \hyperlink{class_problem_af92be524acb6f1d6b484eff1fce07d2c}{Problem}.
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_standard_problem_a7b736a0a91726c54363cedc43c80fbd2}{\index{Standard\-Problem@{Standard\-Problem}!m\-\_\-correct\-Output\-Data@{m\-\_\-correct\-Output\-Data}}
+\index{m\-\_\-correct\-Output\-Data@{m\-\_\-correct\-Output\-Data}!StandardProblem@{Standard\-Problem}}
+\subsubsection[{m\-\_\-correct\-Output\-Data}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Input\-Data\-Type = double, typename Output\-Data\-Type = double$>$ std\-::vector$<$Output\-Data\-Type$>$ {\bf Standard\-Problem}$<$ Input\-Data\-Type, Output\-Data\-Type $>$\-::m\-\_\-correct\-Output\-Data\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_standard_problem_a7b736a0a91726c54363cedc43c80fbd2}
+
+
+Wektor przechowujący poprawne dane wyjściowe. 
+
+Z tymi dany jest porównywane wyjście algorytmu i sprawdzana poprawność algorytmu. \hypertarget{class_standard_problem_ad1d5f039cd59372664a18ee57485252a}{\index{Standard\-Problem@{Standard\-Problem}!m\-\_\-input\-Data@{m\-\_\-input\-Data}}
+\index{m\-\_\-input\-Data@{m\-\_\-input\-Data}!StandardProblem@{Standard\-Problem}}
+\subsubsection[{m\-\_\-input\-Data}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Input\-Data\-Type = double, typename Output\-Data\-Type = double$>$ std\-::vector$<$Input\-Data\-Type$>$ {\bf Standard\-Problem}$<$ Input\-Data\-Type, Output\-Data\-Type $>$\-::m\-\_\-input\-Data\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_standard_problem_ad1d5f039cd59372664a18ee57485252a}
+
+
+Wektor przechowujący dane wejściowe. 
+
+\hypertarget{class_standard_problem_a2ca81280f88e1d8091cacceae8f2e073}{\index{Standard\-Problem@{Standard\-Problem}!m\-\_\-output\-Data@{m\-\_\-output\-Data}}
+\index{m\-\_\-output\-Data@{m\-\_\-output\-Data}!StandardProblem@{Standard\-Problem}}
+\subsubsection[{m\-\_\-output\-Data}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Input\-Data\-Type = double, typename Output\-Data\-Type = double$>$ std\-::vector$<$Output\-Data\-Type$>$ {\bf Standard\-Problem}$<$ Input\-Data\-Type, Output\-Data\-Type $>$\-::m\-\_\-output\-Data\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_standard_problem_a2ca81280f88e1d8091cacceae8f2e073}
+
+
+Wektor przechowujący dane wyjściowe. 
+
+Są to dane wygenerowane poprzez metodę \hyperlink{class_standard_problem_ad9d90f5c981806bed7c6b4a08abb0384}{compute()} \hypertarget{class_standard_problem_ae8fc195a5e90d5cf0dd6c0417654741a}{\index{Standard\-Problem@{Standard\-Problem}!m\-\_\-problem\-Size@{m\-\_\-problem\-Size}}
+\index{m\-\_\-problem\-Size@{m\-\_\-problem\-Size}!StandardProblem@{Standard\-Problem}}
+\subsubsection[{m\-\_\-problem\-Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Input\-Data\-Type = double, typename Output\-Data\-Type = double$>$ unsigned int {\bf Standard\-Problem}$<$ Input\-Data\-Type, Output\-Data\-Type $>$\-::m\-\_\-problem\-Size\hspace{0.3cm}{\ttfamily [private]}}}\label{class_standard_problem_ae8fc195a5e90d5cf0dd6c0417654741a}
+
+
+Pole przechowujące rozmiar problemu. 
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+/home/mochman/\-Politechnika/\-P\-A\-M\-S\-I/benchmark-\/multiply-\/by-\/2/prj/inc/\hyperlink{_standard_problem_8hpp}{Standard\-Problem.\-hpp}\end{DoxyCompactItemize}

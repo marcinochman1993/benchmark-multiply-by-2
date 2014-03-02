@@ -1,0 +1,6 @@
+/*! \mainpage 
+ *
+ * \section opis Opis programu
+ *
+ *  Program mierzy czas wykonania algorytmu, który mnoży każdy element wektora przez 2. 
+ */

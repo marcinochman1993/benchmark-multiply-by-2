@@ -1,0 +1,196 @@
+\begin{theindex}
+
+  \item {$\sim $\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2}
+    \subitem {Multiply\discretionary {-}{}{}By2}, \hyperpage{16}
+  \item {$\sim $\discretionary {-}{}{}Problem}
+    \subitem {Problem}, \hyperpage{17}
+  \item {/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/doxygen/\discretionary {-}{}{}Main\discretionary {-}{}{}Page.\discretionary {-}{}{}dox}, 
+		\hyperpage{23}
+  \item {/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Benchmark.\discretionary {-}{}{}hpp}, 
+		\hyperpage{23}
+  \item {/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2.\discretionary {-}{}{}hpp}, 
+		\hyperpage{23}
+  \item {/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Problem.\discretionary {-}{}{}hpp}, 
+		\hyperpage{24}
+  \item {/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Standard\discretionary {-}{}{}Problem.\discretionary {-}{}{}hpp}, 
+		\hyperpage{24}
+  \item {/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Timer.\discretionary {-}{}{}hpp}, 
+		\hyperpage{24}
+  \item {/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/src/\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2.\discretionary {-}{}{}cpp}, 
+		\hyperpage{25}
+  \item {/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/src/\discretionary {-}{}{}Timer.\discretionary {-}{}{}cpp}, 
+		\hyperpage{25}
+  \item {/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/src/main.\discretionary {-}{}{}cpp}, 
+		\hyperpage{25}
+  \item {/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/tools/\discretionary {-}{}{}Generate\discretionary {-}{}{}Input.\discretionary {-}{}{}py}, 
+		\hyperpage{25}
+
+  \indexspace
+
+  \item {Benchmark}
+    \subitem {Benchmark}, \hyperpage{13}
+    \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}all\discretionary {-}{}{}Benchmarks}, 
+		\hyperpage{14}
+    \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}problem}, 
+		\hyperpage{14}
+    \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}repeat\discretionary {-}{}{}Num}, 
+		\hyperpage{14}
+    \subitem {save\discretionary {-}{}{}As\discretionary {-}{}{}C\discretionary {-}{}{}S\discretionary {-}{}{}V}, 
+		\hyperpage{14}
+    \subitem {start}, \hyperpage{14}
+  \item {Benchmark$<$ Problem\discretionary {-}{}{}Type $>$}, 
+		\hyperpage{13}
+  \item {Benchmark.\discretionary {-}{}{}hpp}
+    \subitem {operator$<$$<$}, \hyperpage{23}
+  \item {Benchmark\discretionary {-}{}{}Data}, \hyperpage{14}
+    \subitem {number}, \hyperpage{15}
+    \subitem {problem\discretionary {-}{}{}Size}, \hyperpage{15}
+    \subitem {us\discretionary {-}{}{}Interval}, \hyperpage{15}
+
+  \indexspace
+
+  \item {clear\discretionary {-}{}{}Data}
+    \subitem {Problem}, \hyperpage{17}
+    \subitem {Standard\discretionary {-}{}{}Problem}, \hyperpage{19}
+  \item {compute}
+    \subitem {Multiply\discretionary {-}{}{}By2}, \hyperpage{16}
+    \subitem {Problem}, \hyperpage{17}
+    \subitem {Standard\discretionary {-}{}{}Problem}, \hyperpage{19}
+
+  \indexspace
+
+  \item {Generate\discretionary {-}{}{}Input}, \hyperpage{11}
+    \subitem {Generate\discretionary {-}{}{}Input}, \hyperpage{11}
+    \subitem {Generate\discretionary {-}{}{}Input}, \hyperpage{11}
+
+  \indexspace
+
+  \item {is\discretionary {-}{}{}Correct}
+    \subitem {Problem}, \hyperpage{17}
+    \subitem {Standard\discretionary {-}{}{}Problem}, \hyperpage{19}
+
+  \indexspace
+
+  \item {m\discretionary {-}{}{}\_\discretionary {-}{}{}all\discretionary {-}{}{}Benchmarks}
+    \subitem {Benchmark}, \hyperpage{14}
+  \item {m\discretionary {-}{}{}\_\discretionary {-}{}{}correct\discretionary {-}{}{}Output\discretionary {-}{}{}Data}
+    \subitem {Standard\discretionary {-}{}{}Problem}, \hyperpage{20}
+  \item {m\discretionary {-}{}{}\_\discretionary {-}{}{}end}
+    \subitem {Timer}, \hyperpage{22}
+  \item {m\discretionary {-}{}{}\_\discretionary {-}{}{}input\discretionary {-}{}{}Data}
+    \subitem {Standard\discretionary {-}{}{}Problem}, \hyperpage{20}
+  \item {m\discretionary {-}{}{}\_\discretionary {-}{}{}output\discretionary {-}{}{}Data}
+    \subitem {Standard\discretionary {-}{}{}Problem}, \hyperpage{20}
+  \item {m\discretionary {-}{}{}\_\discretionary {-}{}{}problem}
+    \subitem {Benchmark}, \hyperpage{14}
+  \item {m\discretionary {-}{}{}\_\discretionary {-}{}{}problem\discretionary {-}{}{}Size}
+    \subitem {Standard\discretionary {-}{}{}Problem}, \hyperpage{20}
+  \item {m\discretionary {-}{}{}\_\discretionary {-}{}{}repeat\discretionary {-}{}{}Num}
+    \subitem {Benchmark}, \hyperpage{14}
+  \item {m\discretionary {-}{}{}\_\discretionary {-}{}{}start}
+    \subitem {Timer}, \hyperpage{22}
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{25}
+  \item {main.\discretionary {-}{}{}cpp}
+    \subitem {main}, \hyperpage{25}
+  \item {ms\discretionary {-}{}{}Interval}
+    \subitem {Timer}, \hyperpage{21}
+  \item {Multiply\discretionary {-}{}{}By2}, \hyperpage{15}
+    \subitem {$\sim $\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2}, 
+		\hyperpage{16}
+    \subitem {compute}, \hyperpage{16}
+
+  \indexspace
+
+  \item {ns\discretionary {-}{}{}Interval}
+    \subitem {Timer}, \hyperpage{21}
+  \item {number}
+    \subitem {Benchmark\discretionary {-}{}{}Data}, \hyperpage{15}
+
+  \indexspace
+
+  \item {operator$<$$<$}
+    \subitem {Benchmark.\discretionary {-}{}{}hpp}, \hyperpage{23}
+
+  \indexspace
+
+  \item {precision}
+    \subitem {Timer}, \hyperpage{22}
+  \item {Problem}, \hyperpage{16}
+    \subitem {$\sim $\discretionary {-}{}{}Problem}, \hyperpage{17}
+    \subitem {clear\discretionary {-}{}{}Data}, \hyperpage{17}
+    \subitem {compute}, \hyperpage{17}
+    \subitem {is\discretionary {-}{}{}Correct}, \hyperpage{17}
+    \subitem {problem\discretionary {-}{}{}Size}, \hyperpage{17}
+    \subitem {read\discretionary {-}{}{}In\discretionary {-}{}{}Data}, 
+		\hyperpage{17}
+    \subitem {read\discretionary {-}{}{}Out\discretionary {-}{}{}Data}, 
+		\hyperpage{18}
+  \item {problem\discretionary {-}{}{}Size}
+    \subitem {Benchmark\discretionary {-}{}{}Data}, \hyperpage{15}
+    \subitem {Problem}, \hyperpage{17}
+    \subitem {Standard\discretionary {-}{}{}Problem}, 
+		\hyperpage{19, 20}
+
+  \indexspace
+
+  \item {read\discretionary {-}{}{}In\discretionary {-}{}{}Data}
+    \subitem {Problem}, \hyperpage{17}
+    \subitem {Standard\discretionary {-}{}{}Problem}, \hyperpage{20}
+  \item {read\discretionary {-}{}{}Out\discretionary {-}{}{}Data}
+    \subitem {Problem}, \hyperpage{18}
+    \subitem {Standard\discretionary {-}{}{}Problem}, \hyperpage{20}
+
+  \indexspace
+
+  \item {s\discretionary {-}{}{}Interval}
+    \subitem {Timer}, \hyperpage{22}
+  \item {save\discretionary {-}{}{}As\discretionary {-}{}{}C\discretionary {-}{}{}S\discretionary {-}{}{}V}
+    \subitem {Benchmark}, \hyperpage{14}
+  \item {Standard\discretionary {-}{}{}Problem}
+    \subitem {clear\discretionary {-}{}{}Data}, \hyperpage{19}
+    \subitem {compute}, \hyperpage{19}
+    \subitem {is\discretionary {-}{}{}Correct}, \hyperpage{19}
+    \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}correct\discretionary {-}{}{}Output\discretionary {-}{}{}Data}, 
+		\hyperpage{20}
+    \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}input\discretionary {-}{}{}Data}, 
+		\hyperpage{20}
+    \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}output\discretionary {-}{}{}Data}, 
+		\hyperpage{20}
+    \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}problem\discretionary {-}{}{}Size}, 
+		\hyperpage{20}
+    \subitem {problem\discretionary {-}{}{}Size}, \hyperpage{19, 20}
+    \subitem {read\discretionary {-}{}{}In\discretionary {-}{}{}Data}, 
+		\hyperpage{20}
+    \subitem {read\discretionary {-}{}{}Out\discretionary {-}{}{}Data}, 
+		\hyperpage{20}
+  \item {Standard\discretionary {-}{}{}Problem$<$ Input\discretionary {-}{}{}Data\discretionary {-}{}{}Type, Output\discretionary {-}{}{}Data\discretionary {-}{}{}Type $>$}, 
+		\hyperpage{18}
+  \item {start}
+    \subitem {Benchmark}, \hyperpage{14}
+    \subitem {Timer}, \hyperpage{22}
+  \item {stop}
+    \subitem {Timer}, \hyperpage{22}
+
+  \indexspace
+
+  \item {Timer}, \hyperpage{21}
+    \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}end}, 
+		\hyperpage{22}
+    \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}start}, 
+		\hyperpage{22}
+    \subitem {ms\discretionary {-}{}{}Interval}, \hyperpage{21}
+    \subitem {ns\discretionary {-}{}{}Interval}, \hyperpage{21}
+    \subitem {precision}, \hyperpage{22}
+    \subitem {s\discretionary {-}{}{}Interval}, \hyperpage{22}
+    \subitem {start}, \hyperpage{22}
+    \subitem {stop}, \hyperpage{22}
+    \subitem {us\discretionary {-}{}{}Interval}, \hyperpage{22}
+
+  \indexspace
+
+  \item {us\discretionary {-}{}{}Interval}
+    \subitem {Benchmark\discretionary {-}{}{}Data}, \hyperpage{15}
+    \subitem {Timer}, \hyperpage{22}
+
+\end{theindex}

@@ -1,0 +1,101 @@
+\indexentry{Generate\discretionary {-}{}{}Input@{Generate\discretionary {-}{}{}Input}|hyperpage}{11}
+\indexentry{Generate\discretionary {-}{}{}Input@{Generate\discretionary {-}{}{}Input}!Generate\discretionary {-}{}{}Input@{Generate\discretionary {-}{}{}Input}|hyperpage}{11}
+\indexentry{Generate\discretionary {-}{}{}Input@{Generate\discretionary {-}{}{}Input}!GenerateInput@{Generate\discretionary {-}{}{}Input}|hyperpage}{11}
+\indexentry{Benchmark$<$ Problem\discretionary {-}{}{}Type $>$@{Benchmark$<$ Problem\discretionary {-}{}{}Type $>$}|hyperpage}{13}
+\indexentry{Benchmark@{Benchmark}!Benchmark@{Benchmark}|hyperpage}{13}
+\indexentry{Benchmark@{Benchmark}!Benchmark@{Benchmark}|hyperpage}{13}
+\indexentry{Benchmark@{Benchmark}!save\discretionary {-}{}{}As\discretionary {-}{}{}C\discretionary {-}{}{}S\discretionary {-}{}{}V@{save\discretionary {-}{}{}As\discretionary {-}{}{}C\discretionary {-}{}{}S\discretionary {-}{}{}V}|hyperpage}{14}
+\indexentry{save\discretionary {-}{}{}As\discretionary {-}{}{}C\discretionary {-}{}{}S\discretionary {-}{}{}V@{save\discretionary {-}{}{}As\discretionary {-}{}{}C\discretionary {-}{}{}S\discretionary {-}{}{}V}!Benchmark@{Benchmark}|hyperpage}{14}
+\indexentry{Benchmark@{Benchmark}!start@{start}|hyperpage}{14}
+\indexentry{start@{start}!Benchmark@{Benchmark}|hyperpage}{14}
+\indexentry{Benchmark@{Benchmark}!m\discretionary {-}{}{}\_\discretionary {-}{}{}all\discretionary {-}{}{}Benchmarks@{m\discretionary {-}{}{}\_\discretionary {-}{}{}all\discretionary {-}{}{}Benchmarks}|hyperpage}{14}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}all\discretionary {-}{}{}Benchmarks@{m\discretionary {-}{}{}\_\discretionary {-}{}{}all\discretionary {-}{}{}Benchmarks}!Benchmark@{Benchmark}|hyperpage}{14}
+\indexentry{Benchmark@{Benchmark}!m\discretionary {-}{}{}\_\discretionary {-}{}{}problem@{m\discretionary {-}{}{}\_\discretionary {-}{}{}problem}|hyperpage}{14}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}problem@{m\discretionary {-}{}{}\_\discretionary {-}{}{}problem}!Benchmark@{Benchmark}|hyperpage}{14}
+\indexentry{Benchmark@{Benchmark}!m\discretionary {-}{}{}\_\discretionary {-}{}{}repeat\discretionary {-}{}{}Num@{m\discretionary {-}{}{}\_\discretionary {-}{}{}repeat\discretionary {-}{}{}Num}|hyperpage}{14}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}repeat\discretionary {-}{}{}Num@{m\discretionary {-}{}{}\_\discretionary {-}{}{}repeat\discretionary {-}{}{}Num}!Benchmark@{Benchmark}|hyperpage}{14}
+\indexentry{Benchmark\discretionary {-}{}{}Data@{Benchmark\discretionary {-}{}{}Data}|hyperpage}{14}
+\indexentry{Benchmark\discretionary {-}{}{}Data@{Benchmark\discretionary {-}{}{}Data}!number@{number}|hyperpage}{15}
+\indexentry{number@{number}!BenchmarkData@{Benchmark\discretionary {-}{}{}Data}|hyperpage}{15}
+\indexentry{Benchmark\discretionary {-}{}{}Data@{Benchmark\discretionary {-}{}{}Data}!problem\discretionary {-}{}{}Size@{problem\discretionary {-}{}{}Size}|hyperpage}{15}
+\indexentry{problem\discretionary {-}{}{}Size@{problem\discretionary {-}{}{}Size}!BenchmarkData@{Benchmark\discretionary {-}{}{}Data}|hyperpage}{15}
+\indexentry{Benchmark\discretionary {-}{}{}Data@{Benchmark\discretionary {-}{}{}Data}!us\discretionary {-}{}{}Interval@{us\discretionary {-}{}{}Interval}|hyperpage}{15}
+\indexentry{us\discretionary {-}{}{}Interval@{us\discretionary {-}{}{}Interval}!BenchmarkData@{Benchmark\discretionary {-}{}{}Data}|hyperpage}{15}
+\indexentry{Multiply\discretionary {-}{}{}By2@{Multiply\discretionary {-}{}{}By2}|hyperpage}{15}
+\indexentry{Multiply\discretionary {-}{}{}By2@{Multiply\discretionary {-}{}{}By2}!$\sim $\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2@{$\sim $\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2}|hyperpage}{16}
+\indexentry{$\sim $\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2@{$\sim $\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2}!MultiplyBy2@{Multiply\discretionary {-}{}{}By2}|hyperpage}{16}
+\indexentry{Multiply\discretionary {-}{}{}By2@{Multiply\discretionary {-}{}{}By2}!compute@{compute}|hyperpage}{16}
+\indexentry{compute@{compute}!MultiplyBy2@{Multiply\discretionary {-}{}{}By2}|hyperpage}{16}
+\indexentry{Problem@{Problem}|hyperpage}{16}
+\indexentry{Problem@{Problem}!$\sim $\discretionary {-}{}{}Problem@{$\sim $\discretionary {-}{}{}Problem}|hyperpage}{17}
+\indexentry{$\sim $\discretionary {-}{}{}Problem@{$\sim $\discretionary {-}{}{}Problem}!Problem@{Problem}|hyperpage}{17}
+\indexentry{Problem@{Problem}!clear\discretionary {-}{}{}Data@{clear\discretionary {-}{}{}Data}|hyperpage}{17}
+\indexentry{clear\discretionary {-}{}{}Data@{clear\discretionary {-}{}{}Data}!Problem@{Problem}|hyperpage}{17}
+\indexentry{Problem@{Problem}!compute@{compute}|hyperpage}{17}
+\indexentry{compute@{compute}!Problem@{Problem}|hyperpage}{17}
+\indexentry{Problem@{Problem}!is\discretionary {-}{}{}Correct@{is\discretionary {-}{}{}Correct}|hyperpage}{17}
+\indexentry{is\discretionary {-}{}{}Correct@{is\discretionary {-}{}{}Correct}!Problem@{Problem}|hyperpage}{17}
+\indexentry{Problem@{Problem}!problem\discretionary {-}{}{}Size@{problem\discretionary {-}{}{}Size}|hyperpage}{17}
+\indexentry{problem\discretionary {-}{}{}Size@{problem\discretionary {-}{}{}Size}!Problem@{Problem}|hyperpage}{17}
+\indexentry{Problem@{Problem}!problem\discretionary {-}{}{}Size@{problem\discretionary {-}{}{}Size}|hyperpage}{17}
+\indexentry{problem\discretionary {-}{}{}Size@{problem\discretionary {-}{}{}Size}!Problem@{Problem}|hyperpage}{17}
+\indexentry{Problem@{Problem}!read\discretionary {-}{}{}In\discretionary {-}{}{}Data@{read\discretionary {-}{}{}In\discretionary {-}{}{}Data}|hyperpage}{17}
+\indexentry{read\discretionary {-}{}{}In\discretionary {-}{}{}Data@{read\discretionary {-}{}{}In\discretionary {-}{}{}Data}!Problem@{Problem}|hyperpage}{17}
+\indexentry{Problem@{Problem}!read\discretionary {-}{}{}Out\discretionary {-}{}{}Data@{read\discretionary {-}{}{}Out\discretionary {-}{}{}Data}|hyperpage}{18}
+\indexentry{read\discretionary {-}{}{}Out\discretionary {-}{}{}Data@{read\discretionary {-}{}{}Out\discretionary {-}{}{}Data}!Problem@{Problem}|hyperpage}{18}
+\indexentry{Standard\discretionary {-}{}{}Problem$<$ Input\discretionary {-}{}{}Data\discretionary {-}{}{}Type, Output\discretionary {-}{}{}Data\discretionary {-}{}{}Type $>$@{Standard\discretionary {-}{}{}Problem$<$ Input\discretionary {-}{}{}Data\discretionary {-}{}{}Type, Output\discretionary {-}{}{}Data\discretionary {-}{}{}Type $>$}|hyperpage}{18}
+\indexentry{Standard\discretionary {-}{}{}Problem@{Standard\discretionary {-}{}{}Problem}!clear\discretionary {-}{}{}Data@{clear\discretionary {-}{}{}Data}|hyperpage}{19}
+\indexentry{clear\discretionary {-}{}{}Data@{clear\discretionary {-}{}{}Data}!StandardProblem@{Standard\discretionary {-}{}{}Problem}|hyperpage}{19}
+\indexentry{Standard\discretionary {-}{}{}Problem@{Standard\discretionary {-}{}{}Problem}!compute@{compute}|hyperpage}{19}
+\indexentry{compute@{compute}!StandardProblem@{Standard\discretionary {-}{}{}Problem}|hyperpage}{19}
+\indexentry{Standard\discretionary {-}{}{}Problem@{Standard\discretionary {-}{}{}Problem}!is\discretionary {-}{}{}Correct@{is\discretionary {-}{}{}Correct}|hyperpage}{19}
+\indexentry{is\discretionary {-}{}{}Correct@{is\discretionary {-}{}{}Correct}!StandardProblem@{Standard\discretionary {-}{}{}Problem}|hyperpage}{19}
+\indexentry{Standard\discretionary {-}{}{}Problem@{Standard\discretionary {-}{}{}Problem}!problem\discretionary {-}{}{}Size@{problem\discretionary {-}{}{}Size}|hyperpage}{19}
+\indexentry{problem\discretionary {-}{}{}Size@{problem\discretionary {-}{}{}Size}!StandardProblem@{Standard\discretionary {-}{}{}Problem}|hyperpage}{19}
+\indexentry{Standard\discretionary {-}{}{}Problem@{Standard\discretionary {-}{}{}Problem}!problem\discretionary {-}{}{}Size@{problem\discretionary {-}{}{}Size}|hyperpage}{20}
+\indexentry{problem\discretionary {-}{}{}Size@{problem\discretionary {-}{}{}Size}!StandardProblem@{Standard\discretionary {-}{}{}Problem}|hyperpage}{20}
+\indexentry{Standard\discretionary {-}{}{}Problem@{Standard\discretionary {-}{}{}Problem}!read\discretionary {-}{}{}In\discretionary {-}{}{}Data@{read\discretionary {-}{}{}In\discretionary {-}{}{}Data}|hyperpage}{20}
+\indexentry{read\discretionary {-}{}{}In\discretionary {-}{}{}Data@{read\discretionary {-}{}{}In\discretionary {-}{}{}Data}!StandardProblem@{Standard\discretionary {-}{}{}Problem}|hyperpage}{20}
+\indexentry{Standard\discretionary {-}{}{}Problem@{Standard\discretionary {-}{}{}Problem}!read\discretionary {-}{}{}Out\discretionary {-}{}{}Data@{read\discretionary {-}{}{}Out\discretionary {-}{}{}Data}|hyperpage}{20}
+\indexentry{read\discretionary {-}{}{}Out\discretionary {-}{}{}Data@{read\discretionary {-}{}{}Out\discretionary {-}{}{}Data}!StandardProblem@{Standard\discretionary {-}{}{}Problem}|hyperpage}{20}
+\indexentry{Standard\discretionary {-}{}{}Problem@{Standard\discretionary {-}{}{}Problem}!m\discretionary {-}{}{}\_\discretionary {-}{}{}correct\discretionary {-}{}{}Output\discretionary {-}{}{}Data@{m\discretionary {-}{}{}\_\discretionary {-}{}{}correct\discretionary {-}{}{}Output\discretionary {-}{}{}Data}|hyperpage}{20}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}correct\discretionary {-}{}{}Output\discretionary {-}{}{}Data@{m\discretionary {-}{}{}\_\discretionary {-}{}{}correct\discretionary {-}{}{}Output\discretionary {-}{}{}Data}!StandardProblem@{Standard\discretionary {-}{}{}Problem}|hyperpage}{20}
+\indexentry{Standard\discretionary {-}{}{}Problem@{Standard\discretionary {-}{}{}Problem}!m\discretionary {-}{}{}\_\discretionary {-}{}{}input\discretionary {-}{}{}Data@{m\discretionary {-}{}{}\_\discretionary {-}{}{}input\discretionary {-}{}{}Data}|hyperpage}{20}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}input\discretionary {-}{}{}Data@{m\discretionary {-}{}{}\_\discretionary {-}{}{}input\discretionary {-}{}{}Data}!StandardProblem@{Standard\discretionary {-}{}{}Problem}|hyperpage}{20}
+\indexentry{Standard\discretionary {-}{}{}Problem@{Standard\discretionary {-}{}{}Problem}!m\discretionary {-}{}{}\_\discretionary {-}{}{}output\discretionary {-}{}{}Data@{m\discretionary {-}{}{}\_\discretionary {-}{}{}output\discretionary {-}{}{}Data}|hyperpage}{20}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}output\discretionary {-}{}{}Data@{m\discretionary {-}{}{}\_\discretionary {-}{}{}output\discretionary {-}{}{}Data}!StandardProblem@{Standard\discretionary {-}{}{}Problem}|hyperpage}{20}
+\indexentry{Standard\discretionary {-}{}{}Problem@{Standard\discretionary {-}{}{}Problem}!m\discretionary {-}{}{}\_\discretionary {-}{}{}problem\discretionary {-}{}{}Size@{m\discretionary {-}{}{}\_\discretionary {-}{}{}problem\discretionary {-}{}{}Size}|hyperpage}{20}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}problem\discretionary {-}{}{}Size@{m\discretionary {-}{}{}\_\discretionary {-}{}{}problem\discretionary {-}{}{}Size}!StandardProblem@{Standard\discretionary {-}{}{}Problem}|hyperpage}{20}
+\indexentry{Timer@{Timer}|hyperpage}{21}
+\indexentry{Timer@{Timer}!ms\discretionary {-}{}{}Interval@{ms\discretionary {-}{}{}Interval}|hyperpage}{21}
+\indexentry{ms\discretionary {-}{}{}Interval@{ms\discretionary {-}{}{}Interval}!Timer@{Timer}|hyperpage}{21}
+\indexentry{Timer@{Timer}!ns\discretionary {-}{}{}Interval@{ns\discretionary {-}{}{}Interval}|hyperpage}{21}
+\indexentry{ns\discretionary {-}{}{}Interval@{ns\discretionary {-}{}{}Interval}!Timer@{Timer}|hyperpage}{21}
+\indexentry{Timer@{Timer}!precision@{precision}|hyperpage}{22}
+\indexentry{precision@{precision}!Timer@{Timer}|hyperpage}{22}
+\indexentry{Timer@{Timer}!s\discretionary {-}{}{}Interval@{s\discretionary {-}{}{}Interval}|hyperpage}{22}
+\indexentry{s\discretionary {-}{}{}Interval@{s\discretionary {-}{}{}Interval}!Timer@{Timer}|hyperpage}{22}
+\indexentry{Timer@{Timer}!start@{start}|hyperpage}{22}
+\indexentry{start@{start}!Timer@{Timer}|hyperpage}{22}
+\indexentry{Timer@{Timer}!stop@{stop}|hyperpage}{22}
+\indexentry{stop@{stop}!Timer@{Timer}|hyperpage}{22}
+\indexentry{Timer@{Timer}!us\discretionary {-}{}{}Interval@{us\discretionary {-}{}{}Interval}|hyperpage}{22}
+\indexentry{us\discretionary {-}{}{}Interval@{us\discretionary {-}{}{}Interval}!Timer@{Timer}|hyperpage}{22}
+\indexentry{Timer@{Timer}!m\discretionary {-}{}{}\_\discretionary {-}{}{}end@{m\discretionary {-}{}{}\_\discretionary {-}{}{}end}|hyperpage}{22}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}end@{m\discretionary {-}{}{}\_\discretionary {-}{}{}end}!Timer@{Timer}|hyperpage}{22}
+\indexentry{Timer@{Timer}!m\discretionary {-}{}{}\_\discretionary {-}{}{}start@{m\discretionary {-}{}{}\_\discretionary {-}{}{}start}|hyperpage}{22}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}start@{m\discretionary {-}{}{}\_\discretionary {-}{}{}start}!Timer@{Timer}|hyperpage}{22}
+\indexentry{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/doxygen/\discretionary {-}{}{}Main\discretionary {-}{}{}Page.\discretionary {-}{}{}dox@{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/doxygen/\discretionary {-}{}{}Main\discretionary {-}{}{}Page.\discretionary {-}{}{}dox}|hyperpage}{23}
+\indexentry{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Benchmark.\discretionary {-}{}{}hpp@{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Benchmark.\discretionary {-}{}{}hpp}|hyperpage}{23}
+\indexentry{Benchmark.\discretionary {-}{}{}hpp@{Benchmark.\discretionary {-}{}{}hpp}!operator$<$$<$@{operator$<$$<$}|hyperpage}{23}
+\indexentry{operator$<$$<$@{operator$<$$<$}!Benchmark.hpp@{Benchmark.\discretionary {-}{}{}hpp}|hyperpage}{23}
+\indexentry{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2.\discretionary {-}{}{}hpp@{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2.\discretionary {-}{}{}hpp}|hyperpage}{23}
+\indexentry{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Problem.\discretionary {-}{}{}hpp@{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Problem.\discretionary {-}{}{}hpp}|hyperpage}{24}
+\indexentry{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Standard\discretionary {-}{}{}Problem.\discretionary {-}{}{}hpp@{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Standard\discretionary {-}{}{}Problem.\discretionary {-}{}{}hpp}|hyperpage}{24}
+\indexentry{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Timer.\discretionary {-}{}{}hpp@{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/inc/\discretionary {-}{}{}Timer.\discretionary {-}{}{}hpp}|hyperpage}{24}
+\indexentry{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/src/main.\discretionary {-}{}{}cpp@{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/src/main.\discretionary {-}{}{}cpp}|hyperpage}{25}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{25}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{25}
+\indexentry{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/src/\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2.\discretionary {-}{}{}cpp@{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/src/\discretionary {-}{}{}Multiply\discretionary {-}{}{}By2.\discretionary {-}{}{}cpp}|hyperpage}{25}
+\indexentry{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/src/\discretionary {-}{}{}Timer.\discretionary {-}{}{}cpp@{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/src/\discretionary {-}{}{}Timer.\discretionary {-}{}{}cpp}|hyperpage}{25}
+\indexentry{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/tools/\discretionary {-}{}{}Generate\discretionary {-}{}{}Input.\discretionary {-}{}{}py@{/home/mochman/\discretionary {-}{}{}Politechnika/\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}S\discretionary {-}{}{}I/benchmark-\/multiply-\/by-\/2/prj/tools/\discretionary {-}{}{}Generate\discretionary {-}{}{}Input.\discretionary {-}{}{}py}|hyperpage}{25}

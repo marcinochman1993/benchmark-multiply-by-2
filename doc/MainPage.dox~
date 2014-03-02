@@ -1,0 +1,4 @@
+/*! \mainpage 
+ *
+ *  Program wykonuje pomiar czasu wykonania algorytmu, który mnoży każdy element wektora przez 2. 
+ */
