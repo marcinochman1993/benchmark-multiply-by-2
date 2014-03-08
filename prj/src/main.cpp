@@ -2,7 +2,6 @@
 #include "MultiplyBy2.hpp"
 #include <string>
 #include <fstream>
-#include <thread>
 
 int main(int argc, char* argv[])
 {

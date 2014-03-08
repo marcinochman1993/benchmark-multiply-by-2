@@ -8,7 +8,7 @@
 #ifndef STANDARDPROBLEM_HPP_
 #define STANDARDPROBLEM_HPP_
 
-#include <vector>
+#include "Vector.hpp"
 #include "Problem.hpp"
 
 /*! \brief Klasa definiuje standardowy problem algorytmiczny
@@ -60,20 +60,20 @@ class StandardProblem: public Problem
 		/*! \brief Wektor przechowujący dane wejściowe
 		 *
 		 */
-		std::vector<InputDataType> m_inputData;
+		MOchman::Vector<InputDataType> m_inputData;
 
 		/*! \brief Wektor przechowujący dane wyjściowe
 		 *
 		 *  Są to dane wygenerowane poprzez metodę compute()
 		 */
-		std::vector<OutputDataType> m_outputData;
+		MOchman::Vector<OutputDataType> m_outputData;
 
 		/*! \brief Wektor przechowujący poprawne dane wyjściowe
 		 *
 		 *  Z tymi dany jest porównywane wyjście algorytmu i sprawdzana
 		 *  poprawność algorytmu.
 		 */
-		std::vector<OutputDataType> m_correctOutputData;
+		MOchman::Vector<OutputDataType> m_correctOutputData;
 	private:
 		/*! \brief Pole przechowujące rozmiar problemu
 		 */
