@@ -11,9 +11,9 @@ namespace MOchman
 		public:
 
 			/*!
-			 * \brief Domyślny konstruktor klasy List
+			 * \brief Domyślny konstruktor klasy Vector
 			 *
-			 * Inicjalizuje odpowiednie pola klasy List.
+			 * Inicjalizuje odpowiednie pola klasy Vector.
 			 */
 			Vector()
 					: m_data(nullptr), m_size(0), m_allocated(0)
@@ -21,14 +21,14 @@ namespace MOchman
 			}
 			void swapElements(unsigned int, unsigned int);
 			/*!
-			 * \brief Odwraca listę
+			 * \brief Odwraca tablicę
 			 *
 			 * Początek staje sie końcem.
 			 */
 			void reverse();
 
 			/*!
-			 * \brief Pozwala dodać element na koniec listy.
+			 * \brief Pozwala dodać element na koniec tablicy.
 			 *
 			 * Jeśli jest taka potrzeba, alokuje nową pamięć i kopiuje
 			 * wcześniejsze elementy do nowej pamięci.
@@ -36,12 +36,12 @@ namespace MOchman
 			void push_back(Type element);
 
 			/*!
-			 * \brief Pozwala dodać elementy z drugiej listy na koniec listy.
+			 * \brief Pozwala dodać elementy z drugiej tablicy na koniec tablicy.
 			 *
 			 * Jeśli jest taka potrzeba, alokuje nową pamięć i kopiuje
 			 * wcześniejsze elementy do nowej pamięci.
 			 */
-			void push_back(const Vector<Type>& list);
+			void push_back(const Vector<Type>& vec);
 
 			/*!
 			 * \brief Pozwala pobrać rozmiar tablicy.
@@ -52,24 +52,25 @@ namespace MOchman
 			}
 
 			/*!
-			 * \brief Pozwala na przypisanie listy.
+			 * \brief Pozwala na przypisanie tablicy.
+			 *
+			 * \param vec - tablica, która ma być skopiowana
 			 */
-			Vector& operator=(const Vector& list);
+			Vector& operator=(const Vector& vec);
 
 			/*!
-			 * \brief Pozwala porównać dwie listy
+			 * \brief Pozwala porównać dwie tablice
 			 */
-			bool operator==(const Vector& list);
+			bool operator==(const Vector& vec);
 
 			/*!
-			 * Pozwala stwierdzić czy dwie listy są różne.
+			 * Pozwala stwierdzić czy dwie tablice są różne.
 			 */
-			bool operator!=(const Vector& list);
+			bool operator!=(const Vector& vec);
 
 			/*!
 			 * \brief Pobiera rozmiar zaalokowanej pamięci.
 			 *
-			 * \param list - lista do skopiowania
 			 */
 			unsigned int allocatedSize() const
 			{
@@ -79,7 +80,7 @@ namespace MOchman
 			/*!
 			 * \brief Pozwala zaalokować odpowiednią ilość pamięci.
 			 *
-			 * \param size - ilość pamięci do zaalokowania, musi być większy niż aktualny rozmiar listy
+			 * \param size - ilość pamięci do zaalokowania, musi być większy niż aktualny rozmiar tablicy
 			 */
 			void reserve(unsigned int size);
 
@@ -115,12 +116,12 @@ namespace MOchman
 			/*!
 			 * \brief Przechowuje rozmiar tablicy
 			 */
-			unsigned int m_size; // ilość elementów na liście
+			unsigned int m_size;
 
 			/*!
 			 * \brief Przechowuje ilość zaalokowanej pamięci
 			 */
-			unsigned int m_allocated; // ilość miejsca w zarezerwowanej pamięci
+			unsigned int m_allocated;
 	};
 
 }
@@ -166,24 +167,24 @@ void MOchman::Vector<Type>::push_back(Type element)
 }
 
 template<typename Type>
-void MOchman::Vector<Type>::push_back(const Vector<Type>& list)
+void MOchman::Vector<Type>::push_back(const Vector<Type>& vec)
 {
-	if(size() + list.size() > allocatedSize())
-		reserve(size() + list.size());
-	std::copy(list.m_data, list.m_data + list.size(), m_data + size());
-	m_size += list.size();
+	if(size() + vec.size() > allocatedSize())
+		reserve(size() + vec.size());
+	std::copy(vec.m_data, vec.m_data + vec.size(), m_data + size());
+	m_size += vec.size();
 }
 
 template<typename Type>
 MOchman::Vector<Type>& MOchman::Vector<Type>::operator=(
-		const Vector<Type>& list)
+		const Vector<Type>& vec)
 {
 	if(m_data != nullptr)
 		delete[] m_data;
-	if(list.size())
+	if(vec.size())
 	{
-		reserve(list.m_allocated);
-		m_size = list.m_size;
+		reserve(vec.m_allocated);
+		m_size = vec.m_size;
 	}
 	else
 	{
